@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-14T15:53:57 IST" name="Default suite" finished-at="2024-02-14T15:54:22 IST" duration-ms="25305">
+    <groups>
+    </groups>
+    <test started-at="2024-02-14T15:53:57 IST" name="Default test" finished-at="2024-02-14T15:54:22 IST" duration-ms="25305">
+      <class name="smokeTest.homePage">
+        <test-method is-config="true" signature="myBeforeTest()[pri:0, instance:smokeTest.homePage@67f639d3]" started-at="2024-02-14T15:53:57 IST" name="myBeforeTest" finished-at="2024-02-14T15:54:04 IST" duration-ms="6904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeTest -->
+        <test-method signature="openMagentoWebsite()[pri:1, instance:smokeTest.homePage@67f639d3]" started-at="2024-02-14T15:54:04 IST" name="openMagentoWebsite" description="Open magento" finished-at="2024-02-14T15:54:09 IST" duration-ms="5655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMagentoWebsite -->
+        <test-method signature="search()[pri:2, instance:smokeTest.homePage@67f639d3]" started-at="2024-02-14T15:54:09 IST" name="search" description="Search" finished-at="2024-02-14T15:54:12 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="print()[pri:3, instance:smokeTest.homePage@67f639d3]" started-at="2024-02-14T15:54:12 IST" name="print" description="print the page title" finished-at="2024-02-14T15:54:12 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method signature="printCategories()[pri:4, instance:smokeTest.homePage@67f639d3]" started-at="2024-02-14T15:54:12 IST" name="printCategories" description="Print the name of the categories" finished-at="2024-02-14T15:54:12 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printCategories -->
+        <test-method signature="loginFunctionality()[pri:5, instance:smokeTest.homePage@67f639d3]" started-at="2024-02-14T15:54:12 IST" name="loginFunctionality" description="Login functionality" finished-at="2024-02-14T15:54:17 IST" duration-ms="4768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method signature="filterFunctionality()[pri:6, instance:smokeTest.homePage@67f639d3]" started-at="2024-02-14T15:54:17 IST" name="filterFunctionality" description="Filter functionality" finished-at="2024-02-14T15:54:22 IST" duration-ms="4736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterFunctionality -->
+        <test-method is-config="true" signature="myAfterTest()[pri:0, instance:smokeTest.homePage@67f639d3]" started-at="2024-02-14T15:54:22 IST" name="myAfterTest" finished-at="2024-02-14T15:54:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterTest -->
+      </class> <!-- smokeTest.homePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
